@@ -1,7 +1,9 @@
 <!--
 TBD:
 Add to visual:
-- Taxy AI
+
+Add to readme list:
+Vanna AI
 
 - Suspicion Agent
 - Wispy
@@ -19,7 +21,7 @@ Add to visual:
 	</p>
 </h1>
 <h3 align="center">
-  Try out E2B's <a href="https://e2b.dev/docs?ref=awesome-sdks">sandbox runtime </a> for agents, copilots, and AI apps
+  Try out E2B's <a href="https://e2b.dev/docs?ref=awesome-sdks">sandbox </a> for AI apps & agents
 </h3>
 
 <h5 align="center">👉 <a href="https://forms.gle/UXQFCogLYrPFvfoUA">Submit new product here</a></h5>
@@ -35,18 +37,31 @@ The list is done according to our best knowledge, although definitely not compre
 Discussion and feedback appreciated! :heart:
 
 ## Have anything to add?
-You have something to add or improve about our list? Do it via pull request. Please keep the agents in an alphabetical order and in correct category. Please only add companies and projects powered by autonomous AI agents.
-For adding agents'-related SDKs, frameworks and tools, please visit [Awesome SDKs for AI Agents](https://github.com/e2b-dev/awesome-sdks-for-ai-agents)
+Create a pull request or fill in this [form](https://forms.gle/UXQFCogLYrPFvfoUA). Please keep the alphabetical order and in the correct category.
 
+For adding AI agents'-related SDKs, frameworks and tools, please visit [Awesome SDKs for AI Agents](https://github.com/e2b-dev/awesome-sdks-for-ai-agents). This list is only for AI assistants and agents.
+
+<!---
 ## Who's behind this?
 This list is made by the team behind [e2b](https://github.com/e2b-dev/e2b). E2b is building AWS for AI agents. We help developers to deploy, test, and monitor AI agents. E2b is agnostic to your tech stack and aims to work with any tooling for building AI agents.
+--->
 
+## Want to use E2B with your AI product?
+Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow us on [X (Twitter)](https://twitter.com/e2b_dev)
+
+We are open-source and you can get started with E2B [here](https://e2b.dev/docs?ref=awesome-sdks).
+
+<img src="/assets/footer.png" width="100%" alt="SDKs Repo Visual" />
+
+<!---
 ## Join the community
 - Follow us on [Twitter](https://twitter.com/e2b_)
 - [Join Twitter community](https://twitter.com/i/communities/1670204079619055616) for AI agents
 - [Join our Discord](https://discord.gg/U7KEcGErtQ)
 
 Feel free to reach out to us at [hello@e2b.](mailto:hello@e2b.).
+--->
+
 
 # :open_hands: Open-source projects
 
@@ -68,6 +83,34 @@ Adala: Autonomous Data (Labeling) Agent framework
 - [Documentation](https://humansignal.github.io/Adala/) 
 - [Discord](https://discord.gg/QBtgTbXTgU)
 - [GitHub](https://github.com/HumanSignal/Adala)
+</details>
+
+## [Agent4Rec](https://github.com/LehengTHU/Agent4Rec)
+Agent4Rec is a recommender system simulator that utilizes 1,000 LLM-empowered generative agents. These agents, initialized from the MovieLens-1M dataset, exhibit diverse social traits and preferences. 
+
+<details>
+
+### Description
+- These agents are initialized from the [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) dataset, embodying varied social traits and preferences.
+- Each agent interacts with personalized movie recommendations in a page-by-page manner and undertakes various actions such as watching, rating, evaluating, exiting, and interviewing. 
+
+### Links
+- [Paper](https://arxiv.org/abs/2310.10108)
+
+</details>
+
+## [AgentForge](https://github.com/DataBassGit/AgentForge)
+A low-code framework designed for the swift creation, testing, and iteration of AI-powered autonomous agents and Cognitive Architectures, compatible with various LLM models.
+
+<details>
+
+### Description
+
+- Facilitates building custom agents and cognitive architectures with ease.
+- Supports multiple LLM models including OpenAI, Anthropic's Claude, and local Oobabooga, allowing flexibility in running different models for different agents based on specific requirements.
+- Provides customizable agent memory management and on-the-fly prompt editing for rapid development and testing.
+- Comes with a database-agnostic design ensuring seamless extensibility, with straightforward integration with different databases like ChromaDB for various AI projects.
+
 </details>
 
 ## [AgentGPT](https://agentgpt.reworkd.ai/)
@@ -107,6 +150,27 @@ A browser-based implementation of AutoGPT, accessible via a no-code platform
 
 <!-- This is a comment that appears only in the raw text -->
 
+## [AgentPilot](agentpilot.io)
+A cross-platform desktop app to create, manage, and chat with AI agents
+
+
+<details>
+
+### Description
+
+- Integrated into Open Interpreter and MemGPT
+- Group chats feature
+
+
+
+### Links
+- [Web](agentpilot.io)
+- [GitHub](https://github.com/jbexta/AgentPilot)
+- [X ](https://twitter.com/AgentPilotAI)
+- 
+  
+</details>
+
 ## [Agents](https://github.com/aiwaves-cn/agents)
 
 **Agents** is an open-source library/framework for building autonomous language agents.
@@ -129,6 +193,22 @@ A browser-based implementation of AutoGPT, accessible via a no-code platform
 - [Tweet](https://twitter.com/wangchunshu/status/1702512370785100133)
 </details>
 
+## [AgentVerse](https://github.com/OpenBMB/AgentVerse)
+A platform designed for deploying multiple LLM-based agents in various applications, focusing on task-solving and simulation frameworks.
+<details>
+
+### Description
+- Assembles multiple agents to collaboratively accomplish tasks.
+- Allows custom environments for observing or interacting with multiple agents.
+
+### Links
+- Paper: [AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848)
+- [Contact](agentverse2@gmail.com)
+- [Twitter](https://twitter.com/Agentverse71134)
+- [Discord](https://discord.gg/gDAXfjMw)
+- [Hugging Face](https://huggingface.co/spaces/AgentVerse/agentVerse)
+
+</details>
 
 ## [AI Legion](https://github.com/eumemic/ai-legion)
 A platform for agents to work together, similar in spirit to AutoGPT and Baby AGI, but written in TypeScript
@@ -595,6 +675,25 @@ Exploration of Large Scale Language Model Society](https://ghli.org/camel.pdf)
 
 </details>
 
+## [ChatDev](https://github.com/OpenBMB/ChatDev)
+A set of communicative agents for software development
+
+<details>
+
+### Description
+- ChatDev is a virtual software company driven by a multitude of intelligent agents assuming different roles such as CEO, CPO, CTO, programmer, reviewer, tester, and art designer, each represented by unique icons.
+- These agents collaborate in a structured organizational environment, fulfilling the company's mission to "revolutionize the digital world through programming." They engage in functional seminars focusing on design, coding, testing, and documentation.
+- ChatDev aims to provide an accessible, modular, and extensible platform based on large language models, facilitating the study of collective intelligence in a controlled setting.
+- The framework allows for extensive customization, empowering users to tailor the software development process, define phases, and establish specific roles within the virtual company.
+- ChatDev is committed to open-source principles, encouraging contributions from the community and sharing advancements transparently.
+
+### Links
+- [Paper - ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
+- [Local demo](https://github.com/OpenBMB/ChatDev/blob/main/wiki.md#local-demo)
+- [GitHub](https://github.com/OpenBMB/ChatDev)
+
+</details>
+
 ## [ChemCrow](https://github.com/ur-whitelab/chemcrow-public)
 A chemistry agent that performs tasks across synthesis, drug discovery, and materials design
 
@@ -670,20 +769,6 @@ An open-source autopilot for software development
 - [GitHub](https://github.com/continuedev/continue)
 - [Documentation](https://continue.dev/docs/intro)
 - [Twitter](https://twitter.com/continuedev)
-
-</details>
-
-
-## [Cursor](https://www.cursor.so/)
-
-The AI-first Code Editor. Build software faster in an editor designed for pair-programming with AI.
-
-<details>
-
-### Links
-- [Website](https://www.cursor.so/)
-- [GitHub (Issue Only)](https://github.com/getcursor/cursor)
-- [Discord](https://discord.com/invite/PJEgRywgRy)
 
 </details>
 
@@ -1059,6 +1144,26 @@ the design of agents, chains, tools, retrieval functions, and collaborative work
 
 </details>
 
+## [JARVIS](https://github.com/microsoft/JARVIS)
+
+JARVIS is a system to connect LLMs with the ML community.
+
+<details>
+
+### Description
+
+
+- Task Planning: Using ChatGPT to analyze the requests of users to understand their intention, and disassemble them into possible solvable tasks.
+- Model Selection: To solve the planned tasks, ChatGPT selects expert models hosted on Hugging Face based on their descriptions.
+- Task Execution: Invokes and executes each selected model, and returns the results to ChatGPT.
+- Response Generation: Use ChatGPT to integrate the prediction of all models, and generate responses.
+
+### Links
+
+- [Paper](https://arxiv.org/abs/2303.17580)
+
+</details>
+
 ## [Langroid](https://github.com/langroid/langroid)
 
 Multi-Agent framework for building LLM Applications.
@@ -1110,6 +1215,24 @@ Plan-Validate-Solve (PVS) Agent for accurate, reliable and reproducable workflow
 
 - [Discord](https://discord.gg/fWU4rDYSxw)
 - [Author's Twitter](https://twitter.com/felixbrockm)
+
+</details>
+
+## [LLM Agents](https://github.com/mpaepper/llm_agents)
+A minimalistic library for building agents that leverage large language models to automate tasks through a loop of commands and tool integrations.
+
+<details>
+
+### Description
+- Executing Python code in a REPL environment.
+- Conducting searches on Google and Hacker News.
+- Iterating through a cycle of Thought, Action, Observation, and New Thought based on the output of integrated tools.
+- Dynamically appending new information to the prompt for informed decision-making by the agent.
+
+### Links
+
+- [GitHub](https://github.com/mpaepper/llm_agents)
+- [Blog](https://www.paepper.com/blog/posts/intelligent-agents-guided-by-llms/)
 
 </details>
 
@@ -1183,6 +1306,22 @@ Inspired by privateGPT, allows using your own documents as an information source
 - [YouTube - LocalGPT: OFFLINE CHAT FOR YOUR FILES [Installation & Code Walkthrough]](https://www.youtube.com/watch?v=MlyoObdIHyo&ab_channel=PromptEngineering)
 </details>
 
+## [MemGPT](https://github.com/cpacker/MemGPT)
+A system that intelligently manages different memory tiers in LLMs to effectively provide the extended context within the LLM's limited context window. 
+
+<details>
+	
+### Description
+- Chat with your data - talk to your local files or SQL database
+- Create perpetual chatbots with self-editing memory
+
+### Links  
+- [Paper](https://arxiv.org/abs/2310.08560)
+- [Documentation](https://memgpt.readthedocs.io/)
+- [Discord](https://discord.gg/9GEQrxmVyE)
+- [HuggingFace](https://huggingface.co/MemGPT)
+
+</details>
 
 ## [Mentat](https://github.com/biobootloader/mentat)
 Mentat is the AI tool that assists you with any coding task, right from your command line.
@@ -1469,7 +1608,7 @@ An open-source React.js Autonomous LLM Agent
 
 </details>
 
-## [Superagent](https://www.superagent.sh/)</details>
+## :eight_pointed_black_star: [Superagent](https://www.superagent.sh/)</details>
 Not a single agent, but a tool that allows creating agents without coding
 <details>
 
@@ -1487,6 +1626,7 @@ Not a single agent, but a tool that allows creating agents without coding
 - [Interview: Discussing agents' tracing, observability, and debugging with Ismail Pelaseyed, the founder of Superagent](https://e2b.dev/blog/discussing-agents-challenges-with-ismail-pelaseyed-the-founder-of-superagent)
 
 </details>
+
 
 ## [SuperAGI](https://superagi.com/)
 An open-source autonomous AI framework to enable development and deployment autonomous agents
@@ -1905,6 +2045,31 @@ An AI agent specifically designed for business intelligence
 
 </details>
 
+## [Artisian AI](https://github.com/Artisan-AI)
+Human-like digital workers with different purposes, e.g., sales, e-mails, and book keeping
+
+
+<details>
+
+### Description
+- YC company
+- "Creating the first human-like digital workers, called Artisans"
+- Artisans are advanced human-like digital workers trained to do specific roles, who integrate alongside human teams
+- They have unique faces, names, memories & skills, and they continuously improve once they are employed, molding to each company's needs
+- The first Artisan, Ava, automates the entire outbound sales process and can be set up with a 10-minute conversation. Ava creates TCPs, prospects with her database of over 270,000,000 contacts, crafts & sends highly bespoke email sequences, and books meetings into your calendar. And, you can manage all features & settings by talking to Ava via Slack.
+
+
+### Links
+- [GitHub](https://github.com/Artisan-AI)
+- [X ](https://twitter.com/GetArtisanAI)
+- [LinkedIn](https://www.linkedin.com/company/artisanai/)
+- [Founder's X](https://twitter.com/jasparcjack)
+- [Founder's LinkedIn](https://www.linkedin.com/in/rupertdodkins/)
+- [Article](https://tech.eu/2023/11/17/ai-startup-artisan-raises-23m-to-develop-human-like-digital-workers/)
+  
+</details>
+
+
 
 ## [BitBuilder](https://www.bitbuilder.ai/?utm_source=awesome-ai-agents)
 
@@ -1970,6 +2135,24 @@ A tool for creating a fully-functioning, ready-to-launch website in 20 seconds
 - 30% Faster Speed: The app achieves an impressive 30% increase in website generation speed, providing users with a fast and efficient website building experience.
 </details>
 
+## [Codegen](https://www.codegen.com/)
+An agent that allows automatically solve tickets, write tests and level up user's development workflow with the power of GPT-4.
+
+<details>
+
+### Description
+
+- Use-case: Coding, debugging, code migration etc.
+- Models used: GPT-4
+
+
+
+### Links
+- [Web](https://www.codegen.com/)
+- [X ](https://twitter.com/Codegen)
+- [Founder's X](https://twitter.com/mathemagic1an)
+</details>
+
 ## [Codium AI](https://www.codium.ai/)
 AI-powered interactive code integrity dev tool enabling developers to ship software faster and with fewer bugs
 
@@ -2031,6 +2214,38 @@ Web based version of AutoGPT/babyAGI
 - Author: [Sully Omarr](https://twitter.com/SullyOmarr)
 - [Interview: About deployment, evaluation, and testing of agents with Sully Omar, the CEO of Cognosys AI](https://e2b.dev/blog/about-deployment-evaluation-and-testing-of-agents-with-sully-omar-the-ceo-of-cognosys-ai)
 
+</details>
+
+## [Cursor](https://www.cursor.so/)
+
+The AI-first Code Editor. Build software faster in an editor designed for pair-programming with AI.
+
+<details>
+
+### Links
+- [Website](https://www.cursor.so/)
+- [GitHub (Issue Only)](https://github.com/getcursor/cursor)
+- [Discord](https://discord.com/invite/PJEgRywgRy)
+
+</details>
+
+## [Cykel](https://www.cykel.ai/)
+Cykel is an AI co-pilot model that can interact with any UI, website or API in response to natural language commands
+
+
+<details>
+
+### Description
+
+- Use-case: General purpose, Personal assistant (helping with daily tasks)
+
+
+### Links
+- [Web](https://www.cykel.ai/)
+- [X ](https://twitter.com/CykelAI)
+- [LinkedIn](https://www.linkedin.com/company/cykelai)
+- [Founder's X](https://twitter.com/EwanCollinge)
+  
 </details>
 
 
@@ -2708,6 +2923,28 @@ TalktoData AI allows advanced data discovery, cleaing, analysis, and visualizati
 - Team Twitter profiles: [Vinod Varma](https://twitter.com/vinodvarma24)
 </details>
 
+## [Taskade](https://www.taskade.com/)
+Taskade AI lets users create, train, and run custom AI agents inside a unified workspace to build a virtual AI Workforce.
+
+<details>
+
+### Description
+- AI Agent for custom tasks, automation, and workflows
+- AI Generator for flowcharts, mind mapping, task management 
+- AI Chat Assistant and Media Q&A with projects, docs, and more
+- Custom AI Agents: Craft AI agents with custom commands, tools, and knowledge to automate tasks
+- Engage with projects and documents through a dynamic AI Chat Assistant, providing media Q&A and contextual support.
+
+
+
+### Links
+- [Web](https://taskade.com/)
+- [Twitter](https://twitter.com/taskade)
+- [Linkedin](https://www.linkedin.com/company/taskade/)
+- Team Twitter profiles: [John Xie](https://twitter.com/johnxie)
+</details>
+
+
 ## [ThinkChain AI](https://www.thinkchain.ai/)
 A financial AI agent platform using your own knowledge base
 
@@ -2728,6 +2965,31 @@ A financial AI agent platform using your own knowledge base
 
 
 </details>
+
+
+## [Tusk](https://usetusk.ai/)
+Tusk is an AI engineer that pushes and tests code
+
+
+<details>
+
+### Description
+- Tusk is an AI engineer that helps product managers ship simple front-end changes fast, letting their software engineers focus on more important work
+- Assign a product ticket to Tusk, and let our AI write, push, and test the code for you
+- Use-cases: Coding, debugging, code migration etc.
+- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)
+
+
+### Links
+- [Web](https://usetusk.ai/)
+- [GitHub](https://github.com/apps/use-tusk)
+- [X ](https://twitter.com/usetusk)
+- [LinkedIn](https://www.linkedin.com/company/usetusk/about/)
+- [Founder's X](https://twitter.com/sohilkshirsagar)
+- [Founder's X 2](https://twitter.com/Marcel7an)
+  
+</details>
+
 
 ## [v0 by Vercel](https://v0.dev/)
 v0 is a generative user interface system by Vercel Labs powered by AI. It generates copy-and-paste friendly React code based on Shadcn UI and Tailwind CSS.
@@ -2767,11 +3029,44 @@ Wispy is a web-browsing AI assistant that can summarize content, compose content
 
 </details>
 
-# Who's behind this?
+## :eight_pointed_black_star: AI apps & agents with sandbox integration or native support
+
+### :eight_pointed_black_star: [Superagent](https://www.superagent.sh/)
+<details>
+
+Superagent uses E2B as a [code execution tool](https://x.com/pelaseyed/status/1709592941226831916?s=20). To try Superagent with E2B, create a Code interpreter API and then select it for your agent to use.
+</details>
+
+### :eight_pointed_black_star: [OpenAI's Assistants](https://e2b.dev/docs/llm-platforms/openai/)
+<details>
+
+You can define actions for your AI assistant and E2B will automatically execute them inside a sandbox. This allows you to create powerful AI assistants with custom tools completely predefined by you.
+To [try the OpenAI Assistants with E2B](https://e2b.dev/docs/llm-platforms/openai), you can follow our guide in [Python](https://e2b.dev/docs/llm-platforms/openai#python) or [JavaScript](https://e2b.dev/docs/llm-platforms/openai#java-script). 
+
+</details>
+
+### :eight_pointed_black_star: [Langchain Data Analyst](https://python.langchain.com/docs/integrations/tools/e2b_data_analysis)
+
+<details>
+
+E2B Data Analysis sandbox [integrated into Langchain](https://python.langchain.com/docs/integrations/tools/e2b_data_analysis) allows you to:
+- Run Python code
+- Generate charts via matplotlib
+- Install Python packages dynamically during runtime
+- Install system packages dynamically during runtime
+- Run shell commands
+- Upload and download files.
+See also a guide [here](https://e2b.dev/blog/build-ai-data-analyst-with-langchain-and-e2b).
+
+</details>
+
+## Want to use E2B with your AI product?
+Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on discord](https://discord.gg/35NF4Y8WSE).
+
+We are open-source and you can get started with E2B [here](https://e2b.dev/docs?ref=awesome-sdks).
 
 <img src="/assets/footer.png" width="100%" alt="SDKs Repo Visual" />
 
-This list was made by the team behind [E2B](https://github.com/e2b-dev/e2b?ref=awesome-sdks). E2b is building a Sandbox Runtime for LLM apps and agents  - that is, a set of custom sandboxed cloud environments for AI-powered apps and agentic workflows. Get started [here](https://e2b.dev/docs?ref=awesome-sdks).
 
 ## Join the community
 - Follow us on [X ](https://twitter.com/e2b_dev)
